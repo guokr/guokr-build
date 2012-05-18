@@ -602,7 +602,7 @@ function filterFile(query,filepaths,config,callback){
         isStatus = false,   //should get hg status
         filterFlag = ',',   //two changset id is seperated by filterFlag which should be ','
         isFilter = false,   //should filter by changset range
-        args = ['python2.7', filterPy, config.base];     //arguments of cp
+        args = ['python', filterPy, config.base];     //arguments of cp
 
     //if filepath is in srcDir, return the relative path. else return false.
     function isInSrcDir(_filepath){
