@@ -1,0 +1,72 @@
+{
+    "/":{
+        "method" : "get",
+        "mod" : "index",
+        "func" : "index"
+    },
+    "/config":{
+        "method" : "get",
+        "mod" : "config",
+        "func" : "configPage"
+    },
+    "/build":{
+        "method" : "get",
+        "mod" : "build",
+        "func" : "buildPage"
+    },
+    "/logout":{
+        "method" : "get",
+        "mod" : "login",
+        "func" : "logOut"
+    },
+    "/profile":{
+        "method" : "get",
+        "mod" : "profile",
+        "func" : "profilePage"
+    },
+    "/getfiletree":{
+        "method" : "get",
+        "mod" : "build",
+        "func" : "getFileTreeJson"
+    },
+    "/getHgStatus":{
+        "method" : "get",
+        "mod" : "build",
+        "func" : "getHgStatus"
+    },
+    "/login":{
+        "method" : "post",
+        "mod" : "login",
+        "func" : "logIn"
+    },
+    "/changepassword":{
+        "method" : "post",
+        "mod" : "profile",
+        "func" : "changePassword"
+    },
+    "/newuser":{
+        "method" : "post",
+        "mod" : "profile",
+        "func" : "newUser"
+    },
+    "/saveconfig":{
+        "method" : "post",
+        "mod" : "config",
+        "func" : "saveConfig"
+    },
+    "/filter":{
+        "method" : "post",
+        "mod" : "build",
+        "func" : "filter"
+    },
+    "/updateversion":{
+        "method" : "post",
+        "mod" : "build",
+        "func" : "updateVersion"
+    },
+    "/buildfile":{
+        "method" : "post",
+        "mod" : "build",
+        "func" : "buildFile"
+    }
+}

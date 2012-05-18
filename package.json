@@ -1,0 +1,11 @@
+{
+    "name": "g-build-online"
+  , "version": "1.0.2"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.1"
+    , "jade": ">= 0.0.1"
+    , "uglify-js": ">= 1.2.3"
+    , "colors": ">= 0.6.0"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "maxProcess":20,
+    "jsCompiler":"closure",
+    "sessionStore":"connect"
+}

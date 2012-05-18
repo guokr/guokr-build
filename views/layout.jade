@@ -1,0 +1,29 @@
+!!!
+html
+    head
+        title!= title
+        meta(charset='utf-8')
+        link(rel='stylesheet', href='/skin/css/resources/css/ext-all.css')
+        link(rel='stylesheet', href='/skin/css/builder-all.css')
+        //-script(src='/js/jquery/jquery-1.7.1.min.js')
+        script(src='/js/json/json.min.js')
+        script(src='/js/ext-4.0.7/ext-all.js')
+    body
+        .all
+            .nav_bar
+              -if( logedIn )
+                a.nav_bar-logo(title="内部构建工具",href="/")
+                ul.nav_bar-welcome
+                    li.nav_bar-welcome-item Hi, #{username}.
+                    li#profile.nav_bar-welcome-item 
+                        a(href='/profile') 帐号管理
+                    li.nav_bar-welcome-item(id='#{pageLink}')
+                        a(href='/#{pageLink}') #{pageName}
+                    li#logout.nav_bar-welcome-item
+                        a(href='/logout') 登出
+              -else
+                a.nav_bar-logo(title="内部构建工具",href="/")
+            .content
+                != body
+            .footer
+                p(align='center')@2011-2012 Guokr 前端构建工具
