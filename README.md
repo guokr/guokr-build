@@ -3,11 +3,15 @@
 ## 特性
 ### 代码合并
 Javascript使用以下注释形式：
+
     //@import "a.js";
     //@import "../b.js";
+
 CSS支持默认import方式：
+
     @import "a.css";
     @import "../b.css";
+
 import 指定的代码文件会被合并。
 
 ### 代码压缩
@@ -17,13 +21,18 @@ import 指定的代码文件会被合并。
 ### 支持Mercurial(hg)
 支持hg版本库，即：若你的源文件目录是hg版本库，则工具会自动列出修改中或刚被添加的文件。
 此功能与：
+
     $ hg status -ma
+
 得到的结果一样
 
 ### 修改版本号
 可以修改指定目录模版中的前端文件版本号，例如：
+
     <script src="/skin/g.css"></script>
+
 修改成
+
     <script src="/skin/g.css?2.5.6"></script>
 
 ### 多账户支持
