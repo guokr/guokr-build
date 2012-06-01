@@ -59,3 +59,7 @@ import 指定的代码文件会被合并。
 5. 为了更好的session支持,构建工具可以选择redis为session数据存取。如果遇到错误 "Error: Redis connection to 127.0.0.1:6379 failed - connect ECONNREFUSED",
    需要开启redis-server服务(执行redis-server命令,可自定义redis.conf配置,取代默认的/etc/redis/redis.conf)。
    如果未安装redis-server,可以用sudo apt-get install redis-server类似的命令来安装。
+
+
+##其他
+[guokr前端Javascript模块库](https://github.com/guokr/G.js)
