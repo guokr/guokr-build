@@ -1,5 +1,8 @@
 # Guokr前端构建工具
 
+# 截图
+![screenshot](./screenshot.png)
+
 ## 特性
 ### 代码合并
 Javascript使用以下注释形式：
