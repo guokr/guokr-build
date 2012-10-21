@@ -1,7 +1,7 @@
 # Guokr前端构建工具
 
 # 截图
-![screenshot](./screenshot.png)
+![screenshot](https://raw.github.com/guokr/guokr-build/master/screenshot.png)
 
 ## 特性
 ### 代码合并
