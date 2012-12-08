@@ -19,7 +19,7 @@ import 指定的代码文件会被合并。
 
 ### 代码压缩
 可选用YUI compressor或Closure Compiler压缩合并后代码，见配置。
-也可以使用[ublifyjs](https://github.com/mishoo/UglifyJS)压缩代码
+也可以使用[uglifyjs](https://github.com/mishoo/UglifyJS)压缩代码
 
 ### 支持Mercurial(hg)
 支持hg版本库，即：若你的源文件目录是hg版本库，则工具会自动列出修改中或刚被添加的文件。
